@@ -8,6 +8,9 @@ public class DebugThree4
       double rate = 75.84;
       System.out.println("My tuition:");
       tuitionBill(myCredits, rate);
+
+       System.out.println("Your tuition:");
+       tuitionBill(yourCredits, rate);
    }
    public static void tuitionBill(int c, double r)
    {
